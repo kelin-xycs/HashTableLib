@@ -41,6 +41,7 @@
   <ItemGroup>
     <Compile Include="DuplicateKeyException.cs" />
     <Compile Include="HashTable.cs" />
+    <Compile Include="HashTableInternal.cs" />
     <Compile Include="KeyNotFoundException.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

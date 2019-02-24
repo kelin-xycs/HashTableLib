@@ -123,10 +123,12 @@ namespace HashTableLibTest
                 uint i = ht.Add(key, value);
                 WriteAddMsg(key, value, i);
 
+                WriteMsg("Add { key: \"aa\" value: \"小刚\" } 。");
+
                 key = "aa";
                 value = "小刚";
                 i = ht.Add(key, value);
-                WriteAddMsg(key, value, i);
+                //WriteAddMsg(key, value, i);
 
                 WriteLine();
             }
